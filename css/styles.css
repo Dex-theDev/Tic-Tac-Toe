@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.title-text {
+    text-align: center;
+}
+.container {
+    width: 40%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box {
+    flex: 0 0 32%; 
+    width: 33.33%;
+    height: 25vh;
+    border: solid 2px rgb(184, 89, 34);
+    border-radius: .5rem;
+   
+}
+.box:hover {
+    background-color: rgba(57, 180, 129, 0.308);
+}
