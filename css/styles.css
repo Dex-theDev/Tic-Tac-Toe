@@ -18,7 +18,13 @@
     height: 25vh;
     border: solid 2px rgb(184, 89, 34);
     border-radius: .5rem;
-   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(184, 89, 34);
+    font-size: 3rem;
+    
 }
 .box:hover {
     background-color: rgba(57, 180, 129, 0.308);
