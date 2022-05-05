@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/cb1113dac4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
-    <h1 class="title-text">Tic-Tac-Toe!</h1>
+    <h1 class="title-text">Tic-Tac-Toe</h1>
     <div class="container">
     <div class="box" value= ''></div>
     <div class="box" value= ''></div>
@@ -21,6 +28,15 @@
     <div class="box" value= ''></div>
     </div>
     
+    <!--My first attempt at a modal-->
+    <div class="modal">
+        <div class="modal-content">
+            <p class="modal-text">Player 1 Wins!</p>
+            <!--maybe i'll add an icon here-->
+            <button class="reset-button">Play Again</button>
+        </div>
+
+    </div>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
